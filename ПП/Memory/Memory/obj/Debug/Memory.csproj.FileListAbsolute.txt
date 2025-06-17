@@ -16,3 +16,39 @@ C:\курсовой1\Memory\Memory\obj\Debug\Interop.WMPLib.dll
 C:\курсовой1\Memory\Memory\obj\Debug\AxInterop.WMPLib.dll
 C:\курсовой1\Memory\Memory\obj\Debug\Memory.csproj.ResolveComReference.cache
 C:\курсовой1\Memory\Memory\obj\Debug\Memory.ResultsForm.resources
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\bin\Debug\Memory.exe.config
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\bin\Debug\Memory.exe
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\bin\Debug\Memory.pdb
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\bin\Debug\Interop.WMPLib.dll
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Interop.WMPLib.dll
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.csproj.ResolveComReference.cache
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.LoadingForm.resources
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.MainForm.resources
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.PlayForm.resources
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.ResultsForm.resources
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.Properties.Resources.resources
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.csproj.GenerateResource.cache
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.exe
+C:\Users\user\Downloads\Telegram Desktop\Memory\Memory\obj\Debug\Memory.pdb
+D:\кп С# копия 3\Memory\Memory\bin\Debug\Memory.exe.config
+D:\кп С# копия 3\Memory\Memory\bin\Debug\Memory.exe
+D:\кп С# копия 3\Memory\Memory\bin\Debug\Memory.pdb
+D:\кп С# копия 3\Memory\Memory\bin\Debug\Interop.WMPLib.dll
+D:\кп С# копия 3\Memory\Memory\bin\Debug\AxInterop.WMPLib.dll
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.csproj.AssemblyReference.cache
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Interop.WMPLib.dll
+D:\кп С# копия 3\Memory\Memory\obj\Debug\AxInterop.WMPLib.dll
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.csproj.ResolveComReference.cache
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.LoadingForm.resources
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.MainForm.resources
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.PlayForm.resources
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.ResultsForm.resources
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.Properties.Resources.resources
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.csproj.GenerateResource.cache
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.csproj.CoreCompileInputs.cache
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.exe
+D:\кп С# копия 3\Memory\Memory\obj\Debug\Memory.pdb

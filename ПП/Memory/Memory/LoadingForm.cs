@@ -13,13 +13,13 @@ namespace Memory
         {
             InitializeComponent();
             InitializeSplash();
+
+            Global.LoadingForm = this;
         }
         private void InitializeSplash()
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Width = 1000;
-            this.Height = 700;
 
             ProgressBar progressBar = new ProgressBar();
             progressBar.Style = ProgressBarStyle.Continuous;

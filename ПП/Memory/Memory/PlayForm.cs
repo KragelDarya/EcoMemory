@@ -18,19 +18,24 @@ namespace Memory
         private Timer gameTimer;
         private int secondsElapsed = 0;
         private string statsFile = "stats.txt";
+
+        private Panel bgPanel;
+
         public PlayForm()
         {
             InitializeComponent();
+            Global.PlayForm = this;
+
             this.FormBorderStyle = FormBorderStyle.None;
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.Width = 1000;
-            this.Height = 700;
+
             // Создаем таймер
             gameTimer = new Timer();
             gameTimer.Interval = 1000; // 1 секунда
             gameTimer.Tick += GameTimer_Tick;
             // Создаем панель для карточек
             FlowLayoutPanel panel = new FlowLayoutPanel();
+            bgPanel = panel;
             panel.Dock = DockStyle.Fill;
             panel.WrapContents = true;
             panel.AutoSize = false;
@@ -46,9 +51,14 @@ namespace Memory
             lblTimer.BringToFront();
             // Создаем кнопки для выбора уровня
             Panel topPanel = new Panel();
+            topPanel.BackColor = Color.White;
             topPanel.Height = 50;
             topPanel.Dock = DockStyle.Top;
             this.Controls.Add(topPanel);
+
+            Button btn4x3 = new Button() { Text = "4x3", Tag = 3, Width = 60, Left = 200, Top = 10 };
+            btn4x3.Click += LevelButton_Click;
+            topPanel.Controls.Add(btn4x3);
 
             Button btn4x4 = new Button() { Text = "4x4", Tag = 4, Width = 60, Left = 300, Top = 10 };
             btn4x4.Click += LevelButton_Click;
@@ -58,9 +68,7 @@ namespace Memory
             btn4x5.Click += LevelButton_Click;
             topPanel.Controls.Add(btn4x5);
 
-            Button btn4x3 = new Button() { Text = "4x3", Tag = 3, Width = 60, Left = 200, Top = 10 };
-            btn4x3.Click += LevelButton_Click;
-            topPanel.Controls.Add(btn4x3);
+            
 
             Button btnBackToMain = new Button()
             {
@@ -68,7 +76,9 @@ namespace Memory
                 Width = 100,
                 Height = 30,
                 Left = 700,
-                Top = 10
+                Top = 10,
+                BackgroundImage = Image.FromFile("files/ToMain.png"),
+                BackgroundImageLayout = ImageLayout.None
             };
             btnBackToMain.Click += BtnBackToMain_Click;
             topPanel.Controls.Add(btnBackToMain);
@@ -79,6 +89,7 @@ namespace Memory
             StartGame(gridSize);
 
         }
+
         //Загрузка изображений для карточек
         private void LoadImages()
         {
@@ -203,7 +214,7 @@ namespace Memory
                     secondSelected.IsMatched = true;
 
                     Timer matchDelayTimer = new Timer();
-                    matchDelayTimer.Interval = 300; //0,3 секунды
+                    matchDelayTimer.Interval = 300; 
                     matchDelayTimer.Tick += (s2, e2) =>
                     {
                          matchDelayTimer.Stop();
@@ -228,7 +239,7 @@ namespace Memory
                 {
                     // Не совпадают, задержка перед закрытием
                     Timer delayTimer = new Timer();
-                    delayTimer.Interval = 700; // 0,7 секунды
+                    delayTimer.Interval = 700; 
                     delayTimer.Tick += (s, args) =>
                     {
                         delayTimer.Stop();
@@ -253,7 +264,7 @@ namespace Memory
         private void SaveResult(int time)
         {
             string statsFileName = $"stats_{gridSize}.txt";
-            string folderPath = AppDomain.CurrentDomain.BaseDirectory; // Путь к папке Debug
+            string folderPath = AppDomain.CurrentDomain.BaseDirectory; 
             string fullPath = Path.Combine(folderPath, statsFileName);
 
             string entry = $"{DateTime.Now}: 4 x{gridSize} - {time} сек";
@@ -261,9 +272,21 @@ namespace Memory
         }
         private void BtnBackToMain_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            MainForm mainForm = new MainForm();
-            mainForm.Show();
+            this.Close();
+        }
+
+        private void PlayForm_Load(object sender, EventArgs e)
+        {
+            if (File.Exists(Global.BackgroundPath))
+            {
+                bgPanel.BackgroundImage = Image.FromFile(Global.BackgroundPath);
+                bgPanel.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+        }
+
+        private void PlayForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Global.MainForm.Show();
         }
     }
 
@@ -304,9 +327,10 @@ namespace Memory
             Bitmap bmp = new Bitmap(80, 80);
             using (Graphics g = Graphics.FromImage(bmp))
             {
-                g.Clear(Color.White);
+                g.Clear(Color.LightSeaGreen);
             }
             return bmp;
         }
+
     }
  }

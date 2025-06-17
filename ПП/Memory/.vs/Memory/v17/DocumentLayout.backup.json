@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\",
+  "WorkspaceRootPath": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|c:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\memory\\memory\\playform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\playform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\playform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\memory\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\playform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\playform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\memory\\loadingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\loadingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\memory\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\loadingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\loadingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\memory\\loadingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FBE200E-AECE-4760-9ED1-69C875F3CA1C}|Memory\\Memory.csproj|solutionrelative:memory\\loadingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +54,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\MainForm.cs",
-              "RelativeDocumentMoniker": "Memory\\MainForm.cs",
-              "ToolTip": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\MainForm.cs",
-              "RelativeToolTip": "Memory\\MainForm.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlayForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\PlayForm.cs",
+              "RelativeDocumentMoniker": "Memory\\PlayForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\PlayForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "Memory\\PlayForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:10:57.457Z"
+              "WhenOpened": "2025-06-16T08:03:12.378Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\MainForm.cs",
+              "RelativeDocumentMoniker": "Memory\\MainForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\MainForm.cs",
+              "RelativeToolTip": "Memory\\MainForm.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAASwEIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:10:57.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayForm.cs",
-              "DocumentMoniker": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\PlayForm.cs",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\PlayForm.cs",
               "RelativeDocumentMoniker": "Memory\\PlayForm.cs",
-              "ToolTip": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\PlayForm.cs",
-              "RelativeToolTip": "Memory\\PlayForm.cs",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAowAIBAABJAAAAAAAAAA==",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\PlayForm.cs*",
+              "RelativeToolTip": "Memory\\PlayForm.cs*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T16:30:01.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultsForm.cs",
-              "DocumentMoniker": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\ResultsForm.cs",
-              "RelativeDocumentMoniker": "Memory\\ResultsForm.cs",
-              "ToolTip": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\ResultsForm.cs",
-              "RelativeToolTip": "Memory\\ResultsForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "LoadingForm.cs",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\LoadingForm.cs",
+              "RelativeDocumentMoniker": "Memory\\LoadingForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\LoadingForm.cs",
+              "RelativeToolTip": "Memory\\LoadingForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:10:41.116Z"
+              "WhenOpened": "2025-05-09T17:11:10.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoadingForm.cs",
-              "DocumentMoniker": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\LoadingForm.cs",
-              "RelativeDocumentMoniker": "Memory\\LoadingForm.cs",
-              "ToolTip": "C:\\\u043A\u0443\u0440\u0441\u043E\u0432\u043E\u04391\\Memory\\Memory\\LoadingForm.cs",
-              "RelativeToolTip": "Memory\\LoadingForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ResultsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\ResultsForm.cs",
+              "RelativeDocumentMoniker": "Memory\\ResultsForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\ResultsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Memory\\ResultsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:11:10.098Z"
+              "WhenOpened": "2025-06-16T08:12:05.844Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultsForm.cs",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\ResultsForm.cs",
+              "RelativeDocumentMoniker": "Memory\\ResultsForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\ResultsForm.cs",
+              "RelativeToolTip": "Memory\\ResultsForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:10:41.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\MainForm.cs",
+              "RelativeDocumentMoniker": "Memory\\MainForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Memory\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:13:14.876Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoadingForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\LoadingForm.cs",
+              "RelativeDocumentMoniker": "Memory\\LoadingForm.cs",
+              "ToolTip": "D:\\\u043A\u043F \u0421# \u043A\u043E\u043F\u0438\u044F 3\\Memory\\Memory\\LoadingForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Memory\\LoadingForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:12:04.423Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         },
