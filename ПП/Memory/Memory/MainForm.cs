@@ -66,8 +66,9 @@ namespace Memory
             this.BackgroundImage = System.Drawing.Image.FromFile(backgroundPath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
             this.StartPosition = FormStartPosition.CenterScreen;
-            label1.Text = "Экопамять";
-            label1.Font = new Font("Arial", 20);
+            label1.Text = "EcoMemory";
+            label1.Font = new Font("lucida Console", 30);
+            label1.ForeColor = ColorTranslator.FromHtml("#008364");
             label1.BackColor = Color.Transparent;
         }
         private void button1_Click(object sender, EventArgs e)

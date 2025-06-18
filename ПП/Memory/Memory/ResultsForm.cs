@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -17,38 +18,82 @@ namespace Memory
         private void InitializeUI()
         {
             this.FormBorderStyle = FormBorderStyle.None;
-            this.Text = "Результаты";
             this.Size = new System.Drawing.Size(1080, 830);
 
-            Button btn4x3 = new Button { Text = "Показать 4x3", Top = 70, Left = 145, Width = 170 };
-            Button btn4x4 = new Button { Text = "Показать 4x4", Top = 170, Left = 145, Width = 170 };
-            Button btn4x5 = new Button { Text = "Показать 4x5", Top = 270, Left = 145, Width = 170 };
-            Button btnBack = new Button { Text = "На главную", Top = 370, Left = 145, Width = 170 };
+            Label lblTitle = new Label
+            {
+                Text = "Статистика",
+                Font = new Font("Lucida Console", 30, FontStyle.Bold),
+                AutoSize = true,
+                Top = 120,
+                Left = 125,
+                BackColor = Color.Transparent,
+                ForeColor = ColorTranslator.FromHtml("#008364")
+            };
+
+            Button btn4x3 = new Button { Top = 220, Left = 155, Width = 220, Height = 60 };
+            Button btn4x4 = new Button { Top = 320, Left = 155, Width = 220, Height = 60 };
+            Button btn4x5 = new Button { Top = 420, Left = 155, Width = 220, Height = 60 };
+            Button btnBack = new Button { Top = 560, Left = 155, Width = 220, Height = 60 };
+
+            // Картинки для кнопок
+            btn4x3.BackgroundImage = Image.FromFile("files/TW4x3.png");
+            btn4x3.BackgroundImageLayout = ImageLayout.Stretch;
+            btn4x3.Text = "";
+
+            btn4x4.BackgroundImage = Image.FromFile("files/TW4x4.png");
+            btn4x4.BackgroundImageLayout = ImageLayout.Stretch;
+            btn4x4.Text = "";
+
+            btn4x5.BackgroundImage = Image.FromFile("files/TW4x5.png");
+            btn4x5.BackgroundImageLayout = ImageLayout.Stretch;
+            btn4x5.Text = "";
+
+            btnBack.BackgroundImage = Image.FromFile("files/TWToMain.png");
+            btnBack.BackgroundImageLayout = ImageLayout.Stretch;
+            btnBack.Text = "";
+            // Скрываем рамки и фон, оставляем только картинку
+            btn4x3.FlatStyle = FlatStyle.Flat;
+            btn4x3.FlatAppearance.BorderSize = 0;
+            btn4x3.BackColor = Color.Transparent;
+
+            btn4x4.FlatStyle = FlatStyle.Flat;
+            btn4x4.FlatAppearance.BorderSize = 0;
+            btn4x4.BackColor = Color.Transparent;
+
+            btn4x5.FlatStyle = FlatStyle.Flat;
+            btn4x5.FlatAppearance.BorderSize = 0;
+            btn4x5.BackColor = Color.Transparent;
+
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.FlatAppearance.BorderSize = 0;
+            btnBack.BackColor = Color.Transparent;
 
             btn4x3.Click += (s, e) => ShowResults(3);
             btn4x4.Click += (s, e) => ShowResults(4);
             btn4x5.Click += (s, e) => ShowResults(5);
-            
-            btnBack.Click += (s, e) =>
-            {
-                this.Close();
-            };
+
+            btnBack.Click += (s, e) => this.Close();
+
             lblResults = new Label
             {
-                Top = 30,
-                Left = 420,
+                Top = 130,
+                Left = 550,
                 Width = 420,
                 Height = 500,
                 AutoSize = false,
-                BorderStyle = BorderStyle.FixedSingle
+                BorderStyle = BorderStyle.FixedSingle,
+                BackColor = Color.White
             };
 
+            this.Controls.Add(lblTitle);
             this.Controls.Add(btn4x3);
             this.Controls.Add(btn4x4);
             this.Controls.Add(btn4x5);
             this.Controls.Add(btnBack);
             this.Controls.Add(lblResults);
         }
+
 
 
         private void ShowResults(int gridSize)

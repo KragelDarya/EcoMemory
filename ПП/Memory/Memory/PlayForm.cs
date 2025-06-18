@@ -44,9 +44,10 @@ namespace Memory
             Label lblTimer = new Label();
             lblTimer.Name = "lblTimer";
             lblTimer.Text = "Время: 0 сек";
-            lblTimer.Font = new Font("Arial", 14);
+            lblTimer.Font = new Font("Lucida Console", 14);
             lblTimer.AutoSize = true;
-            lblTimer.Location = new Point(10, 10);
+            lblTimer.Location = new Point(20, 17);
+            lblTimer.ForeColor = ColorTranslator.FromHtml("#008364");
             this.Controls.Add(lblTimer);
             lblTimer.BringToFront();
             // Создаем кнопки для выбора уровня
@@ -56,30 +57,87 @@ namespace Memory
             topPanel.Dock = DockStyle.Top;
             this.Controls.Add(topPanel);
 
-            Button btn4x3 = new Button() { Text = "4x3", Tag = 3, Width = 60, Left = 200, Top = 10 };
+            // 4x3
+            Button btn4x3 = new Button()
+            {
+                Width = 60,
+                Height = 30,
+                Left = 350,
+                Top = 10,
+                Tag = 3,
+                FlatStyle = FlatStyle.Flat,
+                BackgroundImage = Image.FromFile("files/4x3.png"),
+                BackgroundImageLayout = ImageLayout.Stretch,
+                Text = ""
+            };
+            btn4x3.FlatAppearance.BorderSize = 0;
+            btn4x3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn4x3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn4x3.BackColor = Color.Transparent;
             btn4x3.Click += LevelButton_Click;
             topPanel.Controls.Add(btn4x3);
 
-            Button btn4x4 = new Button() { Text = "4x4", Tag = 4, Width = 60, Left = 300, Top = 10 };
+            // 4x4
+            Button btn4x4 = new Button()
+            {
+                Width = 60,
+                Height = 30,
+                Left = 500,
+                Top = 10,
+                Tag = 4,
+                FlatStyle = FlatStyle.Flat,
+                BackgroundImage = Image.FromFile("files/4x4.png"),
+                BackgroundImageLayout = ImageLayout.Stretch,
+                Text = ""
+            };
+            btn4x4.FlatAppearance.BorderSize = 0;
+            btn4x4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn4x4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn4x4.BackColor = Color.Transparent;
             btn4x4.Click += LevelButton_Click;
             topPanel.Controls.Add(btn4x4);
 
-            Button btn4x5 = new Button() { Text = "4x5", Tag = 5, Width = 60, Left = 400, Top = 10 };
+            // 4x5
+            Button btn4x5 = new Button()
+            {
+                Width = 60,
+                Height = 30,
+                Left = 650,
+                Top = 10,
+                Tag = 5,
+                FlatStyle = FlatStyle.Flat,
+                BackgroundImage = Image.FromFile("files/4x5.png"),
+                BackgroundImageLayout = ImageLayout.Stretch,
+                Text = ""
+            };
+            btn4x5.FlatAppearance.BorderSize = 0;
+            btn4x5.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn4x5.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn4x5.BackColor = Color.Transparent;
             btn4x5.Click += LevelButton_Click;
             topPanel.Controls.Add(btn4x5);
 
-            
+
 
             Button btnBackToMain = new Button()
             {
-                Text = "На главную",
                 Width = 100,
                 Height = 30,
-                Left = 700,
+                Left = 850,
                 Top = 10,
+                FlatStyle = FlatStyle.Flat,
                 BackgroundImage = Image.FromFile("files/ToMain.png"),
-                BackgroundImageLayout = ImageLayout.None
+                BackgroundImageLayout = ImageLayout.Stretch,
+                Text = "", // без текста
+                TabStop = false // необязательно
             };
+
+            // Убираем рамки и фон
+            btnBackToMain.FlatAppearance.BorderSize = 0;
+            btnBackToMain.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnBackToMain.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnBackToMain.BackColor = Color.Transparent;
+            btnBackToMain.ForeColor = Color.Transparent;
             btnBackToMain.Click += BtnBackToMain_Click;
             topPanel.Controls.Add(btnBackToMain);
 
@@ -152,7 +210,7 @@ namespace Memory
             table.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             table.Margin = new Padding(10);
             table.Padding = new Padding(20);
-            table.BackColor = Color.LightGray;
+            table.BackColor = Color.White;
             table.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
 
             // Устанавливаем фиксированный размер строк и столбцов
@@ -301,12 +359,12 @@ namespace Memory
         public Card(Image image)
         {
             Image = image;
-            backImage = GenerateBackImage(); // создаем задний образ
             Button = new Button();
             Button.Width = 80;
             Button.Height = 80;
             Button.Margin = new Padding(2);
             Button.BackgroundImageLayout = ImageLayout.Stretch;
+            Button.BackColor = ColorTranslator.FromHtml("#008364");
             Hide();
         }
 
@@ -320,16 +378,6 @@ namespace Memory
         {
             Button.BackgroundImage = backImage;
             IsRevealed = false;
-        }
-        //генерация изображения для обратной стороны
-        private Image GenerateBackImage()
-        {
-            Bitmap bmp = new Bitmap(80, 80);
-            using (Graphics g = Graphics.FromImage(bmp))
-            {
-                g.Clear(Color.LightSeaGreen);
-            }
-            return bmp;
         }
 
     }
