@@ -24,7 +24,7 @@ namespace Memory
 
         private void SetBackgroundImage(int index)
         {
-            backgroundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "files", $"f{index}.bmp");
+            backgroundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "files/", $"{index}f.bmp");
             Global.BackgroundPath = backgroundPath;
 
             if (File.Exists(backgroundPath))
@@ -61,16 +61,41 @@ namespace Memory
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
-            backgroundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "files/f2.bmp");
+            backgroundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "files/5f.bmp");
             Global.BackgroundPath = backgroundPath;
             this.BackgroundImage = System.Drawing.Image.FromFile(backgroundPath);
             this.BackgroundImageLayout = ImageLayout.Stretch;
             this.StartPosition = FormStartPosition.CenterScreen;
-            label1.Text = "EcoMemory";
-            label1.Font = new Font("lucida Console", 30);
-            label1.ForeColor = ColorTranslator.FromHtml("#008364");
-            label1.BackColor = Color.Transparent;
+
+            pictureBox1.Image = Image.FromFile("files/MName.png"); // замените путь на своё изображение
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom; // или PictureBoxSizeMode.StretchImage
+            pictureBox1.BackColor = Color.Transparent;
+
+            mediaPlayer.settings.setMode("loop", true);
+            mediaPlayer.URL = "files/calm1.mp3"; // выбери нужный трек
+            mediaPlayer.controls.play();
+
+            // Настройка кнопок
+            ConfigureButton(button1, "files/MPlay.png");
+            ConfigureButton(button2, "files/MStat.png");
+            ConfigureButton(button3, "files/MRules.png");
+            ConfigureButton(button4, "files/MSpravka.png");
+            ConfigureButton(button5, "files/MClose.png");                   
         }
+
+        private void ConfigureButton(Button btn, string imagePath)
+        {
+            btn.BackgroundImage = Image.FromFile(imagePath);
+            btn.BackgroundImageLayout = ImageLayout.Stretch;
+            btn.Text = "";
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn.BackColor = Color.Transparent;
+            btn.TabStop = false;
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             PlayForm playForm = new PlayForm();

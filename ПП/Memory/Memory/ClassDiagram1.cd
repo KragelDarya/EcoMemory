@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Memory.Global">
-    <Position X="4" Y="9" Width="1.5" />
+    <Position X="4" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAABDAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Global.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.LoadingForm">
-    <Position X="5.75" Y="2.75" Width="1.5" />
+    <Position X="5.75" Y="3.25" Width="1.5" />
     <Members>
       <Field Name="components" Hidden="true" />
       <Method Name="Dispose" Hidden="true" />
@@ -21,7 +21,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.MainForm">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Position X="0.5" Y="3.25" Width="1.5" />
     <Members>
       <Field Name="axWindowsMediaPlayer1" Hidden="true" />
       <Field Name="button1" Hidden="true" />
@@ -35,15 +35,15 @@
       <Method Name="Dispose" Hidden="true" />
       <Field Name="helpProvider1" Hidden="true" />
       <Method Name="InitializeComponent" Hidden="true" />
-      <Field Name="label1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>AAAAAADAACAgABAQAACAEEECAMA4AAAAAHAMAAAAQEI=</HashCode>
+      <HashCode>AAAABADAACAgAAAQAACAEEECAMA4AAAAAHAMAABAQEI=</HashCode>
       <FileName>MainForm.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.PlayForm">
-    <Position X="4" Y="2.75" Width="1.5" />
+    <Position X="4" Y="3.25" Width="1.5" />
     <Members>
       <Field Name="components" Hidden="true" />
       <Method Name="Dispose" Hidden="true" />
@@ -55,21 +55,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.Card">
-    <Position X="2.25" Y="9" Width="1.5" />
+    <Position X="2.25" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAIAAAEAAAAAEAAAAAAAAAEAABAAAAIAAAAAAAA=</HashCode>
       <FileName>PlayForm.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.Program">
-    <Position X="5.75" Y="9" Width="1.5" />
+    <Position X="5.75" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.ResultsForm">
-    <Position X="2.25" Y="2.75" Width="1.5" />
+    <Position X="2.25" Y="3.25" Width="1.5" />
     <Members>
       <Field Name="components" Hidden="true" />
       <Method Name="Dispose" Hidden="true" />
@@ -81,32 +81,32 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.Properties.Resources" Collapsed="true">
-    <Position X="0.5" Y="9" Width="1.5" />
+    <Position X="0.5" Y="11" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Class Name="Memory.Properties.Settings" Collapsed="true">
-    <Position X="8.25" Y="10.25" Width="1.5" />
+    <Position X="8" Y="11.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.Windows.Forms.Form" Collapsed="true">
-    <Position X="3.25" Y="1.25" Width="1.5" />
-    <TypeIdentifier />
-  </Class>
   <Class Name="System.Configuration.ApplicationSettingsBase">
-    <Position X="8.25" Y="4.5" Width="1.5" />
+    <Position X="8" Y="5.5" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
   <Class Name="System.Object">
-    <Position X="2.25" Y="5.75" Width="1.5" />
+    <Position X="2.25" Y="7.25" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="System.Configuration.SettingsBase">
-    <Position X="8.25" Y="1" Width="1.5" />
+    <Position X="8" Y="1.75" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

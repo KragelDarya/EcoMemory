@@ -20,15 +20,13 @@ namespace Memory
             this.FormBorderStyle = FormBorderStyle.None;
             this.Size = new System.Drawing.Size(1080, 830);
 
-            Label lblTitle = new Label
+            PictureBox pictureTitle = new PictureBox
             {
-                Text = "Статистика",
-                Font = new Font("Lucida Console", 30, FontStyle.Bold),
-                AutoSize = true,
-                Top = 120,
-                Left = 125,
-                BackColor = Color.Transparent,
-                ForeColor = ColorTranslator.FromHtml("#008364")
+                Image = Image.FromFile("files/TWStat.png"), // укажите нужное изображение
+                Location = new Point(125, 120),
+                Size = new Size(300, 60), // можно отрегулировать размер под изображение
+                SizeMode = PictureBoxSizeMode.StretchImage,
+                BackColor = Color.Transparent
             };
 
             Button btn4x3 = new Button { Top = 220, Left = 155, Width = 220, Height = 60 };
@@ -83,10 +81,11 @@ namespace Memory
                 Height = 500,
                 AutoSize = false,
                 BorderStyle = BorderStyle.FixedSingle,
-                BackColor = Color.White
+                BackColor = Color.White,
+                Font = new Font("Lucida Console", 14)
             };
 
-            this.Controls.Add(lblTitle);
+            this.Controls.Add(pictureTitle);
             this.Controls.Add(btn4x3);
             this.Controls.Add(btn4x4);
             this.Controls.Add(btn4x5);

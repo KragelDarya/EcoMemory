@@ -6,7 +6,7 @@ namespace Memory
 {
     public partial class LoadingForm : Form
     {
-        private Timer timerr;
+      
         private int elapsedTime = 0;
         private string backgroundPath;
         public LoadingForm()
@@ -49,8 +49,10 @@ namespace Memory
 
         private void LoadingForm_Load(object sender, EventArgs e)
         {
-            backgroundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "files/f2.bmp");
+            backgroundPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "files/5f.bmp");
             this.BackgroundImage = System.Drawing.Image.FromFile(backgroundPath);
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
+
     }
 }

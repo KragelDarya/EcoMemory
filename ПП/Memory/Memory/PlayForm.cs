@@ -17,7 +17,7 @@ namespace Memory
         private Card secondSelected = null;
         private Timer gameTimer;
         private int secondsElapsed = 0;
-        private string statsFile = "stats.txt";
+        
 
         private Panel bgPanel;
 
@@ -237,10 +237,9 @@ namespace Memory
             }
             gameTimer.Start();
 
-            // Центрируем таблицу по форме
-            table.Anchor = AnchorStyles.None; // отключаем привязку к сторонам
-
-            // Обновляем расположение вручную
+           
+            table.Anchor = AnchorStyles.None; 
+                       
             table.Location = new Point(
                 (this.ClientSize.Width - table.PreferredSize.Width) / 2,
                 (this.ClientSize.Height - table.PreferredSize.Height) / 2
@@ -325,7 +324,7 @@ namespace Memory
             string folderPath = AppDomain.CurrentDomain.BaseDirectory; 
             string fullPath = Path.Combine(folderPath, statsFileName);
 
-            string entry = $"{DateTime.Now}: 4 x{gridSize} - {time} сек";
+            string entry = $"{DateTime.Now}: 4x{gridSize} - {time} сек";
             File.AppendAllText(fullPath, entry + Environment.NewLine);
         }
         private void BtnBackToMain_Click(object sender, EventArgs e)
@@ -364,7 +363,7 @@ namespace Memory
             Button.Height = 80;
             Button.Margin = new Padding(2);
             Button.BackgroundImageLayout = ImageLayout.Stretch;
-            Button.BackColor = ColorTranslator.FromHtml("#008364");
+            Button.BackColor = Color.LightGray;
             Hide();
         }
 

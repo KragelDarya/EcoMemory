@@ -9,6 +9,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{754FC069-D67B-A9D7-50A1-8D1CA196D8F1}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EcoMemory", "EcoMemory\EcoMemory.vdproj", "{FF19C35A-8526-BAB7-BE04-2725BDDB3A07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,8 @@ Global
 		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF19C35A-8526-BAB7-BE04-2725BDDB3A07}.Debug|Any CPU.ActiveCfg = Debug
+		{FF19C35A-8526-BAB7-BE04-2725BDDB3A07}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
